@@ -1,0 +1,4 @@
+    
+ User-agent: *
+ Allow: /
+ Sitemap: https://ctrls-studio.github.io/sitemap.xml

@@ -1,0 +1,6 @@
+# Site Settings
+title: "CTRL S Studio"
+description: "CTRL S Studio는 게임을 제작하고 싶은 사람들끼리 모인 게임 제작 팀입니다."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ctrls-studio.github.io"
+future: true

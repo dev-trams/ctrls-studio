@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/util/util.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+    <title>JRL | 구매 사이트</title>
+</head>
+<script>
+    const urlParams = new URL(location.href).searchParams;
+
+    const name = urlParams.get('j');
+    console.log(name);
+    if(name == null) {
+        location.href = "error";
+    } 
+    if(!(name == "JRL2023TEST")){
+        if(!(name == "JRLB6")){
+            location.href = "error"
+        }
+    } 
+    
+</script>
+<body>
+    <header>
+        <div class="headerTitle">
+            <img id="logoImg" src="images/cropped-로고배경없음-2.png" alt="logo">
+            <br>
+            <label for="logoImg">통장 직거래 전용</label>
+        </div>
+    </header>
+    <main>
+        <div class="questionBox guideLine">
+            <form action="./JRL/main?j=JRL2023TEST" method="get">
+                <div class="privateDataCore">
+                    <table>
+                        <tr>
+                            <td><label for="text1">이름 </label></td>
+                            <td><input type="text" name="text1" id="text1" placeholder="첫번째 텍스트 박스"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="text2">전화번호 </label></td>
+                            <td><input type="email" name="text2" id="text2" placeholder="두번째 텍스트 박스"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="text3">주소 </label></td>
+                            <td><input type="text" name="text3" id="text3" placeholder="세번째 텍스트 박스"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="text4">우편번호 </label></td>
+                            <td><input type="text" name="text4" id="text4" placeholder="네번째 텍스트 박스"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="imageBoxBase guideLine">
+                    <table class="imageBoxCore contentCenter guideLine">
+                        <tr>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio1"><img src="images/sample/100X100.jpg" alt="item2"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio1" value="2020C" onclick="a(this, 110000);">
+                                        <label for="radio1">JRL2020C</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio2"><img src="images/sample/100X100.jpg" alt="item2"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio2" value="2020T" onclick="a(this, 90000);">
+                                        <label for="radio2">JRL 2020T</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio3"><img src="images/sample/100X100.jpg" alt="item3"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio3" value="실버세트" onclick="a(this, 305000);">
+                                        <label for="radio3">JRL 2020실버 세트</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio4"><img src="images/sample/100X100.jpg" alt="item4"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio4" value="골드세트" onclick="a(this, 190000);">
+                                        <label for="radio4">JRL 2020골드 세트 </label>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio5"><img src="images/sample/100X100.jpg" alt="item4"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio5" value="골드세트" onclick="a(this, 190000);">
+                                        <label for="radio5">JRL 2020골드 세트 </label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio6"><img src="images/sample/100X100.jpg" alt="item5"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio6" value="1050" onclick="a(this, 100000);">
+                                        <label for="radio6">JRL #1050</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio7"><img src="images/sample/100X100.jpg" alt="item3"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio7" value="1090" onclick="a(this, 70000);">
+                                        <label for="radio7">JRL #1090</label>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio8"><img src="images/sample/100X100.jpg" alt="item1"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio8" value="1040" onclick="a(this, 100000);">
+                                        <label for="radio8">JRL #1040</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio9"><img src="images/sample/100X100.jpg" alt="item2"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio9" value="JRL 만능캡(8종)" onclick="a(this, 15000);">
+                                        <label for="radio9">JRL 만능캡(8종)</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio10"><img src="images/sample/100X100.jpg" alt="item3"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio10" value="2020C 날" onclick="a(this, 20000);">
+                                        <label for="radio10">2020C 날</label>
+                                    </div>
+                                </div>
+                               
+                            </td>
+                            <td>
+                                <div class="ibShowBox">
+                                    <label for="radio11"><img src="images/sample/100X100.jpg" alt="item3"></label>
+                                    <div class="ibShowCaseTextLine">
+                                        <input type="checkbox" name="radio1" id="radio11" value="2020T 날" onclick="a(this, 20000);">
+                                        <label for="radio11">2020T 날</label>
+                                    </div>
+                                </div>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                </div>                
+                <div class="optionBoxBase guideLine"><p>옵션</p>
+                    <div class="optionBoxCore">
+                        <input type="checkbox" name="option1" id="check1"><label for="check1">체크박스1</label> 
+                        <input type="checkbox" name="option2" id="check2"><label for="check2">체크박스2</label> 
+                        <input type="checkbox" name="option3" id="check3"><label for="check3">체크박스3</label> 
+                        <input type="checkbox" name="option4" id="check4"><label for="check4">체크박스4</label> 
+                    </div>
+                </div>
+                <hr>
+                <div class="shopingCartCore">
+                    <p>선택된 제품</p>
+                    <input type="text" name="selectProduct" id="selectProduct" readonly>
+                </div>
+                <hr>
+                <div class="priceBox">
+                    <label for="#">결제 예상 금액 </label><input type="text" name="price" id="price" value="0" ></input>
+                </div>
+                <div class="paymentCore">
+                    <input type="submit" value="결제하기">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="elementFooter">
+        <div class="efContentLine guideLine">
+            <div class="efCompanyData guideLine ">
+                <h2 class="questionFont">| ADDRESS : 경기도 남양주시 진접읍<br>
+                    경복대로 425-80, 경복대학교 남양주 캠퍼스 사회교육관(12051)<br>
+                    | TEL : 070-4739-1990<br>
+                    | FAX : 070-4739-1880   
+                <br>| MAIL : cs@jrlkorea.com</h2>
+            </div>
+            <div class="efCompanyTitle guideLine">
+                <p>JRLKOREA CO,. Ltd.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

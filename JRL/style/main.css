@@ -1,0 +1,96 @@
+header {width: 100%;height: 100px; }
+main{margin: 0 auto;}
+/* header */
+.headerTitle{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* body */
+.questionBox{
+    margin: 10% auto;
+    width: 800px;
+    height: auto;
+}
+
+.questionFont{
+    font-size: 14px;
+}
+/* privateData */
+.privateDataCore{
+    width: 100%;
+    height: max-content;
+}
+/* imageBox */
+.imageBoxBase{
+    width: 100%;
+    height: max-content;
+}
+.imageBoxCore{
+    width: 80%;
+    height: max-content;
+}
+.imageBoxCore > tbody > tr > td{
+    padding: 20px;
+}
+.ibShowBox {
+    text-align: center;
+    width: 150px;
+    height: max-content;
+}
+.ibShowCaseTextLine {
+    font-size: 14px;
+}
+/* optionBox */
+.optionBoxBase{
+    width: 100%;
+    height: max-content;
+}
+.optionBoxCore{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+.optionBoxCore > input {
+    margin-left: 10px;
+}
+.optionBoxCore > label {
+    margin-right: 10px;
+}
+/* product */
+.shopingCartCore > input#selectProduct{
+    width: 99%;
+    height: 100px;
+    font-size: 16px;
+    border: 0;
+}
+/* price */
+/* footer */
+.elementFooter{
+    border-top: 3px solid black;
+    width: 100%;
+    height: 150px;
+}
+.efContentLine{
+    width: 100%;
+    height: 150px;
+}
+.efCompanyData{
+       position:absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+.efCompanyTitle{
+    position: fixed;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}

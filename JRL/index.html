@@ -1,0 +1,13 @@
+<script>
+    const urlParams = new URL(location.href).searchParams;
+
+    const name = urlParams.get('j');
+    console.log(name);
+    if(name == "JRL2023TEST"){
+        location.href="main?j=JRL2023TEST";
+    } else if (name == "JRLB6"){
+        location.href="main?j=JRLB6";
+    } else {
+        location.href="error"
+    }
+</script>

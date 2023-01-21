@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/generator.css">
+    <link rel="stylesheet" href="style/util/util.css">
+    <script src="js/generator.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="headerTitle">
+            <img id="logoImg" src="images/cropped-로고배경없음-2.png" alt="logo">
+            <br>
+            <label for="logoImg">개별 링크 생성기</label>
+        </div>
+    </header>
+    
+    <form method="post" >
+        <div class="guideLine linkBoxBase">
+            <table calss="guideLine linkBoxCore">
+                <tr><td><input type="text" name="link" id="link"></td></tr>
+                <tr><td class="textCenter"><input type="button" id="generator" value="generator" onclick="linkGenarator()"></td></tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

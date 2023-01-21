@@ -1,0 +1,21 @@
+*{margin: 0 auto;}
+header{width: 100%;height: 200px;}
+.linkBoxBase{
+    width: 1000px;
+    height: 300px;
+}
+.linkBoxCore{
+    width: 100%;
+    height: max-content;
+}
+#link{
+    text-align: center;
+    font-size: 16px;
+    width: 600px;
+    height: 50px;
+}
+#generator{
+    width: 150px;
+    height: 25px;
+}
+
