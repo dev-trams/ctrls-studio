@@ -1,4 +1,4 @@
     
  User-agent: *
  Allow: /
- Sitemap: https://ctrls-studio.github.io/sitemap.xml
+ Sitemap: https://ctrls-studio.com/sitemap.xml
